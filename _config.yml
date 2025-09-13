@@ -13,7 +13,7 @@ title                    : "Xiaotian Liu's Page"
 title_separator          : "-"
 name                     : &name "Xiaotian Liu"
 description              : &description "I am a PhD candidate at the University of Queensland. My research interest mainly include online auctions, consumers' emotions, and AI adoptions."
-url                      : https://Xiaotian-Liu.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://Xiaotian-Liu.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/Xiaotian-Liu-MKT/Xiaotian-Liu.github.io"
 
@@ -33,12 +33,13 @@ author:
   academia         : # URL
   googlescholar    : "https://scholar.google.com/citations?user=exW3X_YAAAAJ"
   orcid            : "https://orcid.org/0000-0001-7580-5012"
+  researchgate     : "https://www.researchgate.net/profile/Xiaotian_Liu12"
 
   # Repositories and software development
   github           : "Xiaotian-Liu-MKT"
 
   # Social media
-  linkedin         : Xiaotian Liu# Username
+  linkedin         : "xiaotian-liu-806379187"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -56,10 +57,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'The reference price effect of historical price lists in online auctions','On Human Acceptance of Trust in Artificial Intelligence and Brain Cognitive Mechanisms: A Meta-Analysis of Empirical Studies and Neuroscience Experiments','“I” Value the Future, but “We” Value the Past: The Impact of Self‐Construal on Nostalgia Versus Forestalgia Narrative Ads'   
+  journal:
+    title: 'Journal Articles'
+  working:
+    title: 'Working Papers'
   conferences:
     title: 'Conference Papers'
 
