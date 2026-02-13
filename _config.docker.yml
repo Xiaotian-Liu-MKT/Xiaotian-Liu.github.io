@@ -1,0 +1,4 @@
+# Local Docker overrides: force relative asset paths
+local: true
+url: ""
+baseurl: ""

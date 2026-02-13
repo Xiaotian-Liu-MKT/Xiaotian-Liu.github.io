@@ -1,11 +1,16 @@
 ---
 title: "I Value the Future, but We Value the Past: The Impact of Self-Construal on Nostalgia Versus Forestalgia Narrative Ads"
 collection: talks
-type: "Conference Presentation"
+type: "Conference"
 permalink: /talks/2024-anzmac-main-forestalgia
 venue: "Australian and New Zealand Marketing Academy (ANZMAC) Conference"
-date: 2024-01-01
+date: 2024-12-01
 location: "Hobart, Australia"
 ---
 
-Main conference presentation at ANZMAC 2024.
+### Abstract
+This talk explores how self-construal interacts with narrative temporal type (nostalgia vs. forestalgia) to influence consumer attitudes, mediated by narrative transportation.
+
+**Type**: Main Conference Talk
+
+**Related Publication**: [Self-Construal and Forestalgia](/publication/2025-self-construal-forestalgia)

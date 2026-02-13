@@ -4,8 +4,13 @@ collection: talks
 type: "Doctoral Colloquium"
 permalink: /talks/2025-anzmac-doctoral-volunteer
 venue: "Australian and New Zealand Marketing Academy (ANZMAC) Conference"
-date: 2025-01-01
+date: 2025-12-01
 location: "Sydney, Australia"
 ---
 
-Doctoral Colloquium presentation at ANZMAC 2025.
+### Abstract
+This presentation for the Doctoral Colloquium explores the role of group visual cues in volunteer recruitment, introducing the concept of "anticipated effervescence" as a key motivator for prosocial participation.
+
+**Type**: Doctoral Colloquium Talk
+
+**Related Publication**: [From Solo to Collective](/publication/2025-group-visual-cues-volunteer)

@@ -157,6 +157,52 @@
     </ul>
   </div>
   {% endif %}
+
+  {% if cv.awards.size > 0 %}
+  <!-- Awards & Grants -->
+  <div class="cv-section">
+    <h2>Awards, Grants & Industry Engagement</h2>
+    <ul class="cv-list">
+      {% for award in cv.awards %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ award.title }}</div>
+          <div class="cv-item-date">{{ award.date }}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ award.awarder }}</div>
+          {% if award.summary %}
+          <div class="cv-item-detail">{{ award.summary }}</div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.service.size > 0 %}
+  <!-- Service -->
+  <div class="cv-section">
+    <h2>Leadership, Service & Collegiality</h2>
+    <ul class="cv-list">
+      {% for item in cv.service %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ item.title }}</div>
+          <div class="cv-item-date">{{ item.date }}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ item.organization }}</div>
+          {% if item.description %}
+          <div class="cv-item-detail">{{ item.description }}</div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
   
   {% if cv.presentations.size > 0 %}
   <!-- Presentations/Talks -->

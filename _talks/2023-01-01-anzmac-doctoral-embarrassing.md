@@ -4,8 +4,13 @@ collection: talks
 type: "Doctoral Colloquium"
 permalink: /talks/2023-anzmac-doctoral-embarrassing
 venue: "Australian and New Zealand Marketing Academy (ANZMAC) Conference"
-date: 2023-01-01
+date: 2023-12-01
 location: "Otago, New Zealand"
 ---
 
-Doctoral Colloquium presentation at ANZMAC 2023.
+### Abstract
+An early presentation of my work on consumer embarrassment and communication styles in sensitive service contexts, delivered at the ANZMAC Doctoral Colloquium.
+
+**Type**: Doctoral Colloquium Talk
+
+**Related Publication**: [When Less Is Not More](/publication/2025-polite-communication-embarrassing)
