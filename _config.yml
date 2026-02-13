@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Xiaotian Liu's Page"
 title_separator          : "-"
 name                     : &name "Xiaotian Liu"
-description              : &description "I am a PhD candidate at the University of Queensland. My research interest mainly include online auctions, consumers' emotions, and AI adoptions."
+description              : &description "PhD candidate at the University of Queensland. Research on AI, service robots, and digital platforms in consumer decision-making and prosocial outcomes."
 url                      : https://Xiaotian-Liu.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/Xiaotian-Liu-MKT/Xiaotian-Liu.github.io"
@@ -59,6 +59,8 @@ author:
 publication_category:
   journal:
     title: 'Journal Articles'
+  under_review:
+    title: 'Under Review'
   working:
     title: 'Working Papers'
   conferences:
