@@ -13,9 +13,9 @@ title                    : "Xiaotian Liu's Page"
 title_separator          : "-"
 name                     : &name "Xiaotian Liu"
 description              : &description "PhD candidate at the University of Queensland. Research on AI, service robots, and digital platforms in consumer decision-making and prosocial outcomes."
-url                      : https://Xiaotian-Liu.github.io # the base hostname & protocol for your site
+url                      : https://xiaotian-liu-mkt.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/Xiaotian-Liu-MKT/Xiaotian-Liu.github.io"
+repository               : "https://github.com/Xiaotian-Liu-MKT/Xiaotian-Liu-MKT.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
