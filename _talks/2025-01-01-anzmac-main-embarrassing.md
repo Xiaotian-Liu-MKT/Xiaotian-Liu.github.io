@@ -2,7 +2,6 @@
 title: "When Less Is Not More: Why Polite Communication Outperforms Minimal Interaction in Embarrassing Service Encounters"
 collection: talks
 type: "Conference"
-permalink: /talks/2025-anzmac-main-embarrassing
 venue: "Australian and New Zealand Marketing Academy (ANZMAC) Conference"
 date: 2025-12-01
 location: "Sydney, Australia"
