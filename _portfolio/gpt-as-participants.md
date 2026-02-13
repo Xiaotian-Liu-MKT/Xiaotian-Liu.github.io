@@ -1,7 +1,8 @@
 ---
-title: "GPT-as-Participants"
-excerpt: "AI-driven experimental simulation platform using LLMs as synthetic participants.<br/><img src='/images/gpt-participants-teaser.png'>"
+title: "GPT as Participants"
+excerpt: "AI-driven experimental simulation platform using LLMs as synthetic participants."
 collection: portfolio
+link: "https://github.com/Xiaotian-Liu-MKT/GPT-as-participants"
 ---
 
 ### Problem
@@ -23,3 +24,5 @@ Conducting large-scale behavioral experiments with human participants is costly 
 
 ### Research Application
 This tool was used in the early stages of my dissertation projects to refine the communication styles and service agent manipulations used in the final human experiments.
+
+[View on GitHub](https://github.com/Xiaotian-Liu-MKT/GPT-as-participants)

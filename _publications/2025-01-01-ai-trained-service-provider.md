@@ -3,7 +3,7 @@ title: "AI-trained service provider? NO! The Mediating Role of Perceived Tacit K
 collection: publications
 category: working
 permalink: /publication/2025-ai-trained-service-provider
-excerpt: "Manuscript in progress; target: Journal of the Academy of Marketing Science."
+excerpt: "Manuscript in progress."
 date: 2025-01-01
 venue: "Journal of the Academy of Marketing Science"
 citation: "Liu, X. \"AI-trained service provider? NO! The Mediating Role of Perceived Tacit Knowledge.\" Manuscript in progress; target: <i>Journal of the Academy of Marketing Science</i>."

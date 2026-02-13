@@ -2,7 +2,6 @@
 title: "Online Tutor, Private Tutoring Agency"
 collection: teaching
 type: "Online Tutor"
-permalink: /teaching/online-tutor
 venue: "Private Tutoring Agency"
 date: 2020-01-01
 location: "Melbourne, Australia"

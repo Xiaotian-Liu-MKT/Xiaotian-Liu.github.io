@@ -21,9 +21,17 @@ author_profile: true
 *   **Conference Reviewing**
     *   Australian and New Zealand Marketing Academy (ANZMAC) Conference (2023, 2024)
 
+### Open-Source Research Tools
+*   **Paper Feed** — Journal subscription tool with filtering and favorites. [GitHub](https://github.com/Xiaotian-Liu-MKT/paper-feed)
+*   **Stimulus Generator** — Generates advertising stimuli for marketing experiments. [GitHub](https://github.com/Xiaotian-Liu-MKT/stimulus-generator)
+*   **Lit Relevance AI** — Screens Scopus/WoS exports by customizable relevance criteria. [GitHub](https://github.com/Xiaotian-Liu-MKT/LitRelevanceAI)
+*   **GPT as Participants** — LLM-based synthetic participants for scenario experiments. [GitHub](https://github.com/Xiaotian-Liu-MKT/GPT-as-participants)
+*   **Search Paper by Embedding** — Embedding-based search over Scopus exports. [GitHub](https://github.com/Xiaotian-Liu-MKT/SearchPaperByEmbedding)
+
 ### Community & Collegiality
 *   **Conference Volunteering**
     *   Australian and New Zealand Marketing Academy (ANZMAC) Conference (2023, 2024)
     *   26th Labour Econometrics Workshop (2024)
 *   **Peer Mentoring**
     *   Providing ongoing support to junior PhD students in research design, experimental methodology, and academic manuscript development.
+    *   Supervising master's student training in research methods and academic writing at Jiangsu University of Science and Technology and the University of Macau.

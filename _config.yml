@@ -22,7 +22,7 @@ repository               : "https://github.com/Xiaotian-Liu-MKT/Xiaotian-Liu-MKT
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile-2026.png"
   bio              : "PhD Candidate in Marketing, UQ. Research on AI, consumer emotions, and prosocial marketing."
   name             : "Xiaotian Liu"
   location         : "Brisbane, Queensland, Australia"
@@ -197,8 +197,7 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   publications:
     output: true
     permalink: /:collection/:path/

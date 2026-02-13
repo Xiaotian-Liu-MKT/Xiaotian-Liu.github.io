@@ -1,7 +1,8 @@
 ---
-title: "SearchPaperByEmbedding"
-excerpt: "Semantic search tool using vector embeddings for research discovery.<br/><img src='/images/search-embedding-teaser.png'>"
+title: "Search Paper by Embedding"
+excerpt: "Semantic search tool using vector embeddings for research discovery."
 collection: portfolio
+link: "https://github.com/Xiaotian-Liu-MKT/SearchPaperByEmbedding"
 ---
 
 ### Problem
@@ -22,3 +23,5 @@ Traditional academic databases rely heavily on keyword matching. However, differ
 
 ### Impact
 Helps researchers discover hidden connections between different research streams and ensures a more comprehensive coverage of the literature during the discovery phase.
+
+[View on GitHub](https://github.com/Xiaotian-Liu-MKT/SearchPaperByEmbedding)

@@ -1,7 +1,8 @@
 ---
-title: "LitRelevanceAI"
-excerpt: "AI tool to screen research literature relevance from Scopus exports.<br/><img src='/images/litrelevanceai-teaser.png'>"
+title: "Lit Relevance AI"
+excerpt: "AI tool to screen research literature relevance from Scopus exports."
 collection: portfolio
+link: "https://github.com/Xiaotian-Liu-MKT/LitRelevanceAI"
 ---
 
 ### Problem

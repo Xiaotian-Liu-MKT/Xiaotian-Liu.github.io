@@ -36,6 +36,21 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          {% case page.category %}
+            {% when "journal" %}
+              <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+            {% when "under_review" %}
+              {% if page.excerpt %}
+                <p>{{ page.excerpt }}</p>
+              {% else %}
+                <p>Under review{% if page.venue %} at <i>{{ page.venue }}</i>{% endif %}</p>
+              {% endif %}
+            {% when "conferences" %}
+              <p>Conference paper{% if page.venue %} at <i>{{ page.venue }}</i>{% endif %}, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+            {% else %}
+              <p>Working paper{% if page.venue and page.venue != "Working paper" %} — <i>{{ page.venue }}</i>{% endif %}</p>
+          {% endcase %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

@@ -7,8 +7,62 @@ author_profile: true
 
 {% include base_path %}
 
+{% capture teaching_intro %}
 My teaching approach is grounded in **AI-enabled pedagogy**, **experiential learning**, and **inclusive education**. I strive to prepare students for the rapidly evolving data-driven marketing landscape by integrating emerging technologies (e.g., generative AI, LLMs, and digital simulations) with core theoretical foundations. My goal is to foster critical thinking and practical skills that empower students to navigate and lead in the age of AI.
+{% endcapture %}
+{{ teaching_intro | markdownify }}
+
+<style>
+  .teaching-item {
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 0.75rem 0.9rem;
+    margin: 1rem 0;
+    background: #fff;
+  }
+  .teaching-item summary {
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .teaching-item summary::-webkit-details-marker {
+    display: none;
+  }
+  .teaching-item summary:before {
+    content: "+";
+    display: inline-block;
+    width: 1rem;
+    margin-right: 0.35rem;
+  }
+  .teaching-item[open] summary:before {
+    content: "–";
+  }
+  .teaching-meta {
+    margin: 0.5rem 0 0.75rem;
+    color: #666;
+    font-size: 0.95em;
+  }
+  .teaching-meta span {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+</style>
 
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  <details class="teaching-item">
+    <summary>
+      <span>{{ post.title }}</span>
+      {% if post.date %}<span>{{ post.date | default: "1900-01-01" | date: "%Y" }}</span>{% endif %}
+    </summary>
+    <div class="teaching-meta">
+      {% if post.venue %}<span><strong>Institution:</strong> {{ post.venue }}</span>{% endif %}
+      {% if post.type %}<span><strong>Role:</strong> {{ post.type }}</span>{% endif %}
+      {% if post.location %}<span><strong>Location:</strong> {{ post.location }}</span>{% endif %}
+    </div>
+    <div class="teaching-body">
+      {{ post.content }}
+    </div>
+  </details>
 {% endfor %}
